@@ -1,0 +1,18 @@
+<div class="container text-center">
+    "ALL POSTS"
+</div>
+<div class="container text-center">
+    <div class="row align-items-center">
+        <div *ngFor="let note of notes; let noteId = index" class="col">
+            <a [routerLink]="[ noteId ]">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{note.topCoverImage}}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">{{ note.title }}</p>
+                        <p class="card-text">{{ note.description }}</p>
+                    </div>
+                </div>
+            </a> 
+        </div>
+    </div> 
+</div>

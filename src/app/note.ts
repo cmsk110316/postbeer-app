@@ -1,0 +1,28 @@
+export const notes = [
+    {
+        topCoverImage: './assets/image/フライヤー.jpg',
+        coverImage:'./assets/image/SHOWTIME tinenn.png',
+        title: '平日のビール',
+        price: 700,
+        description: 'The王道!ほろにがIPA',
+        heading1: 'IBU',
+        heading2: 'HOP',
+        heading3: 'Style',
+        detail1: '苦味指数  3',
+        detail2: '麦感  3',
+        detail3: 'スタイル  王道',
+    },
+    {        
+        topCoverImage: './assets/image/フライヤー.jpg',
+        coverImage:'./assets/image/SHOWTIME tinenn.png',
+        title: '休日のビール',
+        price: 900,
+        description: '柑橘のようなフルーティーな味わい',
+        heading1: 'IBU',
+        heading2: 'HOP',
+        heading3: 'Style',
+        detail1: '苦味指数  2',
+        detail2: '麦感  1',
+        detail3: 'スタイル   フルーティー',
+    },
+]
